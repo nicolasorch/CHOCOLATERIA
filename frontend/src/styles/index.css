@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: only light;
+}
+
+body {
+  @apply bg-ebony text-champagne font-sans antialiased;
+}
+
+a {
+  @apply text-gold underline-offset-4 decoration-gold/60 hover:text-champagne;
+}
+
+section {
+  @apply scroll-m-20;
+}
